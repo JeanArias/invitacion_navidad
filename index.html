@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fiesta de Navidad 2026 · Estás invitado</title>
+  <meta name="description" content="Te invitamos a la Fiesta de Navidad 2026. Sábado 28 de noviembre, 7:00 PM · Moravia, La Flor, Casa 17. Confirma tu asistencia y escribe tu carta a Santa.">
+  <meta name="theme-color" content="#8f1d2c">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CR">
+  <meta property="og:site_name" content="Fiesta de Navidad 2026">
+  <meta property="og:title" content="Estás invitado a la Fiesta de Navidad 2026">
+  <meta property="og:description" content="28 de noviembre · 7:00 PM · Moravia, La Flor, Casa 17. Toca para abrir tu invitación.">
+  <meta property="og:url" content="https://jeanarias.github.io/invitacion_navidad/">
+  <meta property="og:image" content="https://jeanarias.github.io/invitacion_navidad/assets/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Invitación navideña con rayas rojas, árbol de Navidad y moño">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Estás invitado a la Fiesta de Navidad 2026">
+  <meta name="twitter:description" content="28 de noviembre · 7:00 PM · Moravia, La Flor, Casa 17.">
+  <meta name="twitter:image" content="https://jeanarias.github.io/invitacion_navidad/assets/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="is-locked">
+  <div class="snow" id="snow" aria-hidden="true"></div>
+
+  <!-- 1. Tap to open -->
+  <section class="cover" id="inicio" aria-label="Apertura de la invitación">
+    <p class="script cover__kicker">¡Estás invitado!</p>
+    <button class="envelope" id="openBtn" type="button" aria-label="Toca para abrir la invitación">
+      <span class="envelope__back"></span>
+      <span class="envelope__letter"><span class="script">Navidad 2026</span></span>
+      <span class="envelope__front"></span>
+      <span class="envelope__flap"></span>
+      <span class="envelope__seal" aria-hidden="true">
+        <svg viewBox="0 0 48 48"><path d="M24 7c-8 0-13 6-13 14v3h26v-3c0-8-5-14-13-14z" fill="#f6e3d5" opacity=".9"/><rect x="9" y="26" width="30" height="8" rx="4" fill="#f6e3d5" opacity=".9"/><circle cx="24" cy="6" r="3.5" fill="#f6e3d5" opacity=".9"/></svg>
+      </span>
+      <svg class="envelope__bow" viewBox="0 0 120 120" aria-hidden="true">
+        <path d="M60 56C40 30 8 26 10 52c2 22 34 14 50 4z" fill="#c8202f"/>
+        <path d="M60 56c20-26 52-30 50-4-2 22-34 14-50 4z" fill="#b01a29"/>
+        <path d="M58 60 40 110l14-8 8 12 6-50z" fill="#a0182a"/>
+        <path d="M62 60l18 48-14-8-8 12-2-48z" fill="#c8202f"/>
+        <circle cx="60" cy="56" r="9" fill="#8f1424"/>
+      </svg>
+    </button>
+    <p class="script cover__tap">Toca para abrir</p>
+  </section>
+
+  <button class="sound" id="soundBtn" type="button" aria-pressed="false" aria-label="Música desactivada. Activar música">
+    <svg class="sound__on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    <svg class="sound__off" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="m16 9 5 6m0-6-5 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    <span class="sound__label" id="soundLabel">OFF</span>
+  </button>
+
+  <main id="contenido">
+    <!-- 2. Bienvenida -->
+    <header class="panel hero" id="bienvenida">
+      <div class="oval reveal">
+        <svg class="tree" viewBox="0 0 120 150" aria-hidden="true">
+          <path d="M60 8 38 48h12L28 82h14L18 118h84L78 82h14L70 48h12z" fill="#3f6b3a"/>
+          <path d="M60 8 50 48h10zM44 82 32 118h20zM76 82l12 36H68z" fill="#2f5a2f" opacity=".6"/>
+          <rect x="54" y="118" width="12" height="14" fill="#6b4226"/>
+          <path d="M60 3l2.2 5 5.3.5-4 3.5 1.2 5.2L60 14.500l-4.700 2.700 1.200-5.200-4-3.500 5.300-.5z" fill="#d6a63b"/>
+          <g fill="#8f1d2c"><circle cx="52" cy="62" r="3"/><circle cx="70" cy="76" r="3"/><circle cx="46" cy="100" r="3"/><circle cx="76" cy="104" r="3"/><circle cx="62" cy="36" r="3"/></g>
+        </svg>
+        <p class="eyebrow">Con mucho cariño</p>
+        <h1 class="script">Bienvenidos a la fiesta de navidad 2026</h1>
+        <p class="lead">Una noche para compartir, brindar y celebrar juntos.</p>
+      </div>
+      <a class="scroll-hint" href="#detalles" aria-label="Ir a los detalles"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </header>
+
+    <!-- 3. Detalles -->
+    <section class="panel" id="detalles" aria-labelledby="t-detalles">
+      <div class="card reveal">
+        <p class="eyebrow">Detalles de la fiesta</p>
+        <h2 class="script" id="t-detalles">Nos vemos pronto</h2>
+        <dl class="facts">
+          <div><dt>Fecha</dt><dd>Sábado 28 de noviembre de 2026</dd></div>
+          <div><dt>Hora</dt><dd>A partir de las 7:00 PM</dd></div>
+          <div><dt>Lugar</dt><dd>Moravia, La Flor, Casa 17</dd></div>
+          <div><dt>Referencia</dt><dd>XX54+GR San Vicente, San José</dd></div>
+        </dl>
+        <div class="actions">
+          <a class="btn" id="mapsLink" href="#" target="_blank" rel="noopener">Abrir en Google Maps</a>
+          <a class="btn btn--ghost" id="wazeLink" href="#" target="_blank" rel="noopener">Abrir en Waze</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Countdown -->
+    <section class="panel" id="cuenta" aria-labelledby="t-cuenta">
+      <div class="card card--green reveal">
+        <p class="eyebrow">Faltan</p>
+        <h2 class="script" id="t-cuenta">Cuenta regresiva</h2>
+        <div class="countdown" id="countdown" role="timer" aria-live="off">
+          <div><b id="cd-d">--</b><span>días</span></div>
+          <div><b id="cd-h">--</b><span>horas</span></div>
+          <div><b id="cd-m">--</b><span>min</span></div>
+          <div><b id="cd-s">--</b><span>seg</span></div>
+        </div>
+        <p class="lead" id="cd-msg" hidden>¡La fiesta ha comenzado! Feliz Navidad.</p>
+      </div>
+    </section>
+
+    <!-- 5. RSVP -->
+    <section class="panel" id="rsvp" aria-labelledby="t-rsvp">
+      <div class="card reveal">
+        <p class="eyebrow">Confirmación de asistencia</p>
+        <h2 class="script" id="t-rsvp">¿Nos acompañas?</h2>
+        <form class="form" id="rsvpForm" novalidate>
+          <label>Nombre completo del invitado
+            <input name="nombre" type="text" autocomplete="name" maxlength="80" required>
+          </label>
+          <label>Número de acompañantes
+            <input name="acompanantes" type="number" min="0" max="10" value="0" inputmode="numeric" required>
+          </label>
+          <label>Nombre de los acompañantes
+            <textarea name="nombres_acompanantes" rows="3" maxlength="400" placeholder="Separa los nombres con coma"></textarea>
+          </label>
+          <input class="hp" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn" type="submit">Confirmar asistencia</button>
+          <p class="status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- 6. Carta a Santa -->
+    <section class="panel" id="santa" aria-labelledby="t-santa">
+      <div class="card card--green reveal">
+        <p class="eyebrow">Esa noche habrá</p>
+        <h2 class="script" id="t-santa">Actividades y sorpresas</h2>
+        <ul class="perks">
+          <li><b>Carta a Santa Claus.</b> Escribirás tus deseos para 2027 y los guardaremos en una cápsula del tiempo para abrirla el próximo año. ¡Ese día te damos todo lo necesario!</li>
+          <li><b>Y muchas actividades más.</b> Juegos, sorpresas y buena compañía te esperan.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <p class="script">¡Feliz Navidad!</p>
+    </footer>
+  </main>
+
+  <audio id="bgm" src="assets/its-time.mp3" preload="none" loop></audio>
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

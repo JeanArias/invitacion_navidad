@@ -1,0 +1,8 @@
+name = "invitacion-navidad-api"
+main = "index.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://jeanarias.github.io"
+DATA_REPO = "JeanArias/invitacion_navidad_datos"
+DATA_BRANCH = "main"
