@@ -23,6 +23,9 @@ Sitio estático (HTML/CSS/JS) para GitHub Pages. RSVP se guardan como JSON en un
 ## Datos
 Cada confirmación crea `rsvp/<fecha>-<id>.json` en el repo privado. La carta a Santa se escribe durante la fiesta (la invitación solo la anuncia).
 
+## Mensaje del asistente de Santa
+La sección `Asistente de Santa` muestra el costo de ₡9.950 por persona, la fecha límite de pago (15 de noviembre) y el SINPE 8656-7917. El botón descarga `assets/desglose-cena.jpg` con el presupuesto detallado. La foto del elfo se sirve desde `assets/asistente-santa.jpg`.
+
 ## Nota sobre la música
 Los navegadores exigen un gesto del usuario: el audio arranca al tocar el sobre y el botón ON/OFF permite silenciarlo. Verifica que tengas derecho a usar la canción si publicas el sitio.
 
